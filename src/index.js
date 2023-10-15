@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hello from './components/Hello';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Hello firstName = "Sage" lastName = "Uwakata" />
+    <Hello firstName = "Gwyneth" lastName = "Uwakata" />
+    <Hello firstName = "Johannes" lastName = "Uwakata" />
   </React.StrictMode>
 );
 
