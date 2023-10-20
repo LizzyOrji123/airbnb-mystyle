@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hello from './components/Hello';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot( document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hello firstName = "Sage" lastName = "Uwakata" />
+    <App/>
+   <Hello firstName = "Sage" lastName = "Uwakata" />
     <Hello firstName = "Gwyneth" lastName = "Uwakata" />
-    <Hello firstName = "Johannes" lastName = "Uwakata" />
+    <Hello firstName = "Johannes" lastName = "Uwakata" /> 
   </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
